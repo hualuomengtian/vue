@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<!--效果-->
+		<!--<script type="text/javascript" src="js/jquery1.42.min.js"></script>-->
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+		<script type="text/javascript" key="nsw_index" src="js/nsw_index.js"></script>
+		<!--al效果-->
+
+		<!--客服-->
+		<script type="text/javascript" src="js/lrtk.js"></script>
+		<link rel="shortcut icon" href="images/favicon.ico" />
+
+	</head>
+
+	<body>
+
+		<div class="topWrap">
+			<div class="header">
+				<div class="header-inner">
+					<div class="logo_l">
+						<a href="/" title="大品建装"><img src="images/logo.png" alt="大品建装" title="大品建装" /></a>
+						<h1>空间设计一站式解决方案</h1>
+						<h4>行业经验丰富，欢迎客户上门考察</h4>
+					</div>
+
+					<div class="h_nav">
+						<ul id="navC">
+							<li>
+								<a href="#1" title="大品建装首页">大品建装首页</a>
+							</li>
+							<li>
+								<a href="#2" title="餐饮行业">成功案例</a>
+							</li>
+							<li>
+								<a href="#3" title="民宿行业">解决方案</a>
+							</li>
+							<li>
+								<a href="#4" title="酒店行业">设计师</a>
+							</li>
+							<li>
+								<a href="#6" title="新闻资讯">新闻资讯</a>
+							</li>
+							<li>
+								<a href="#7" title="关于大品建装">关于我们</a>
+							</li>
+							<li>
+								<a href="#8" title="联系大品建装">联系我们</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="h_tel">
+						<p>空间装修咨询热线<b>021-51718500</b></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			var navs = document.getElementById("navC").getElementsByTagName("a");
+			for(var i = 0; i < navs.length; i++) {
+				var getLink = navs[i].getAttribute("href");
+				var getUrl = document.location.href;
+				if(getUrl.indexOf(getLink) != -1 && i !== 0) {
+					navs[i].className = "active";
+					navs[0].className = "";
+				} else if(getUrl.indexOf(getLink) != -1 && i == 0) {
+					navs[i].className = "active";
+				}
+			}
+		</script>
+
+		<!--<script type="text/javascript">
+			initCommonHeader();
+			var MARK = "index";
+			var SID = "";
+		</script>-->
+
+		<div class="banner fullSlide">
+			<div class="bd">
+				<ul>
+					<li _src="url(images/banenr_02.jpg)">
+						<a href="#" title="大品建装专注于餐饮、民宿特色装修一站式服务" target="_blank"></a>
+					</li>
+					<li _src="url(images/banenr_02.jpg)">
+						<a href="#" title="大品建装专注于餐饮、民宿特色装修一站式服务" target="_blank"></a>
+					</li>
+					<li _src="url(images/banenr_02.jpg)">
+						<a href="#" title="大品建装专注于餐饮、民宿特色装修一站式服务" target="_blank"></a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="hd">
+				<ul></ul>
+			</div>
+			<span class="prev png"></span>
+			<span class="next png"></span>
+		</div>
+
+		<div class="sou-main">
+			<div class="soum-right">
+				<input id="key" onkeypress="if(event.keyCode==13) {search();return false;}" placeholder="请输入关键词..." type="text">
+				<input class="ip02" onclick="search()" type="submit" />
+			</div>
+			<p class="soum-left">
+				<b>热门关键词：</b>
+
+				<a href="#" target="_blank" title="巨人脑黄金">巨人脑黄金</a>
+
+				<a href="#" target="_blank" title="氨基酸加锌口服液">氨基酸加锌口服液</a>
+
+				<a href="#" target="_blank" title="灵芝多维氨基酸片">灵芝多维氨基酸片</a>
+
+				<a href="#" target="_blank" title="劲骨胶囊">劲骨胶囊</a>
+
+				<a class="lasta" href="#" target="_blank" title="黄金血康胶囊">黄金血康胶囊</a>
+
+			</p>
+
+		</div>
+        <!-- 案例中心 -->
+		<div class="situation">
+			您现在所在位置：
+			<a href="#">首页</a>>>
+			<a href="#">特色装饰</a>
+
+		</div>
+		<div class="clear"></div>
+        <div class="project_center">
+            <div class="tabPanel clearfix12">
+                <div class="prj_cta1">
+                    <div class="prjrtitel">
+                        <p class="prjrtitel1">设计师</p>
+                        <p class="prjrtitel2">designerCENTER</p>
+                    </div>
+                    <ul class="prj_cta2">
+                        <li class="hit">
+                            <div class="prj_cta3">
+                                <a href="#">
+                                    家电全屋定制&nbsp;+
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="prj_cta3">
+                                <a href="#">
+                                    家电全屋定制&nbsp;+
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="prj_cta3">
+                                <a href="#">
+                                    家电全屋定制&nbsp;+
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="prj_cta3">
+                                <a href="#">
+                                    家电全屋定制&nbsp;+
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="prj_cta3">
+                                <a href="#">
+                                    家电全屋定制&nbsp;+
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="productstel clearfix12">
+                        <div class="productsteipone">
+                            <img src="images/tel123.png" alt="">
+                        </div>
+                        <div class="productstipone1">
+                            <p class="productstipone2">咨询热线：</p>
+                            <p class="productstipone3">1859658632414</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panes_pro">
+                    <div class="panes_pro1">
+                        <a href="#">案例展示</a>
+                    </div>
+                    <div class="panes clearfix12">
+                        <div class="pane clearfix12" style="display:block;">
+                            <div class="dzlj_projects">
+                                <div class="dzlj_projects dzlj_projectsbig">
+                                    <div class="dzlj_projects1">
+                                        <a href="#"><img src="images/banenr_02.jpg" alt=""></a>
+                                    </div>
+                                    <div class="dzlj_projects2qw clearfix12">
+                                        <a href="#">案例名称</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dzlj_projects">
+                                <div class="dzlj_projects dzlj_projectsbig">
+                                    <div class="dzlj_projects1">
+                                        <a href="#"><img src="images/banenr_02.jpg" alt=""></a>
+                                    </div>
+                                    <div class="dzlj_projects2qw clearfix12">
+                                        <a href="#">案例名称</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dzlj_projects">
+                                <div class="dzlj_projects dzlj_projectsbig">
+                                    <div class="dzlj_projects1">
+                                        <a href="#"><img src="images/banenr_02.jpg" alt=""></a>
+                                    </div>
+                                    <div class="dzlj_projects2qw clearfix12">
+                                        <a href="#">案例名称</a>
+                                    </div>
+                                </div>
+                            </div>
+                                            <!--页码-->
+                                            <div class="pagenation">
+                                                <a href="#">共200条记录</a>
+                                                <a href="#">页数：212</a>
+                                                <a href="#" class="a1 btn">&lt;上一页</a>
+                                                <a class="active1">1</a>
+                                                <a href="#">2</a>
+                                                <a href="#">3</a>
+                                                <a href="#" class="a1 btn">下一页&gt; </a>
+                                            </div>
+                                <!--页码结束-->
+                        </div>
+                        <div class="pane clearfix12"></div>
+                        <div class="pane clearfix12"></div>
+                        <div class="pane clearfix12"></div>
+                        <div class="pane clearfix12"></div>
+                    </div> 
+                </div>
+        
+            </div>
+        </div>
+        <script type="text/javascript">
+        $(function(){	
+            $('.prj_cta2 li').click(function(){
+                $(this).addClass('hit').siblings().removeClass('hit');
+                $('.panes>div:eq('+$(this).index()+')').show().siblings().hide();	
+            })
+        })
+        </script>
+
+<div class="clear"></div>
+<div class="nr_case">
+    <div class="nrcase_title">案例赏析</div>
+    <div class="case_nr">
+        <div class="case_pic">
+            <div class="case_pic1">
+                <a href="#"><img src="images/banner.jpg" /></a>
+            </div>
+            <div class="case_wz">
+                <a href="#">案例1</a>
+            </div>
+        </div>
+        <div class="case_pic">
+            <div class="case_pic1">
+                <a href="#"><img src="img/fc.jpg" /></a>
+            </div>
+            <div class="case_wz">
+                <a href="#">案例1</a>
+            </div>
+        </div>
+        <div class="case_pic">
+            <div class="case_pic1">
+                <a href="#"><img src="img/fc.jpg" /></a>
+            </div>
+            <div class="case_wz">
+                <a href="#">案例1</a>
+            </div>
+        </div>
+        <div class="case_pic">
+            <div class="case_pic1">
+                <a href="#"><img src="img/fc.jpg" /></a>
+            </div>
+            <div class="case_wz">
+                <a href="#">案例1</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--推荐新闻-->
+<div class="tjxw">
+
+    <div class="tjxw-title">推荐新闻</div>
+
+    <div class="tjxw-neirong">
+
+        <ul>
+
+            <li>
+                <a href="">新闻新闻新闻新闻新闻新闻新闻新闻1</a>
+
+                <i>[2015-12-21]</i>
+            </li>
+
+            <li>
+                <a href="">新闻新闻新闻新闻新闻新闻新闻新闻2</a>
+
+                <i>[2015-12-21]</i>
+            </li>
+
+            <li>
+                <a href="">新闻新闻新闻新闻新闻新闻新闻新闻3</a>
+
+                <i>[2015-12-21]</i>
+            </li>
+
+            <li>
+                <a href="">新闻新闻新闻新闻新闻新闻新闻新闻4</a>
+
+                <i>[2015-12-21]</i>
+            </li>
+
+            <li>
+                <a href="">新闻新闻新闻新闻新闻新闻新闻新闻1</a>
+
+                <i>[2015-12-21]</i>
+            </li>
+
+            <li>
+                <a href="">新闻新闻新闻新闻新闻新闻新闻新闻2</a>
+
+                <i>[2015-12-21]</i>
+            </li>
+
+            <li>
+                <a href="">新闻新闻新闻新闻新闻新闻新闻新闻3</a>
+
+                <i>[2015-12-21]</i>
+            </li>
+
+            <li>
+                <a href="">新闻新闻新闻新闻新闻新闻新闻新闻4</a>
+
+                <i>[2015-12-21]</i>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!--推荐新闻结束-->
+
+</div>
+<div class="clear"> </div>
+
+
+
+
+
+
+
+		<!--尾部的导航-->
+		<div class="end_nav">
+
+			<div class="mainall">
+
+				<ul>
+					<li>
+						<a href="#" title="大品建装首页">网站首页</a>
+					</li>
+					<li>
+						<a href="#" title="大品建装餐饮行业">解决方案</a>
+					</li>
+					<li>
+						<a href="#" title="大品建装民宿行业">精品案例</a>
+					</li>
+
+					<li>
+						<a href="#" title="大品建装酒店行业">设计师</a>
+					</li>
+
+					<li>
+						<a href="#" title="大品建装新闻资讯">新闻资讯</a>
+					</li>
+					<li>
+						<a href="#" title="关于大品建装">关于我们</a>
+					</li>
+					<li>
+						<a href="#" title="联系大品建装">联系我们</a>
+					</li>
+				</ul>
+
+			</div>
+
+		</div>
+		<!--尾部的导航-->
+		<!--尾部的开始-->
+		<div class="end_dbg">
+			<div class="mainall">
+
+				<div class="end_logo">
+					<a href="/" title="大品建装"><img src="images/logo_foot.png" alt=""></a>
+				</div>
+
+				<div class="end_ewm">
+					<img src="images/20180714111326_0634.png" title="二维码" alt="二维码" />
+					<img src="images/dapin.jpg" alt="">
+				</div>
+
+				<!--友情链接-->
+				<div class="link">
+
+					<p>友情链接 <span>/  links</span></p>
+
+					<div class="links_n">
+
+						<a href="http://www.scxrwt.com/" title="四川除尘设备" target="_blank">四川除尘设备</a>
+
+						<a href="http://www.ginez.cn/" title="四川污水处理设备" target="_blank">四川污水处理设备</a>
+
+						<a href="http://xazdtf.com/" title="西安排送风管道" target="_blank">西安排送风管道</a>
+
+						<a href="http://www.cdmayzen.com" title="四川除尘脱硫脱硝" target="_blank">四川除尘脱硫脱硝</a>
+
+						<a href="http://www.parhulstone.com" title="雨水收集" target="_blank">雨水收集</a>
+
+						<a href="http://www.sxklsj.cn" title="陕西PVC管材管件" target="_blank">陕西PVC管材管件</a>
+
+						<a href="http://www.jsddqzz.com" title="四川螺旋风管" target="_blank">四川螺旋风管</a>
+
+					</div>
+
+				</div>
+				<!--友情链接-->
+
+				<div class="clear"></div>
+
+				<div class="end_n">
+
+					<div class="end_left">
+						<div>版权所有：
+							<h2>陕西大品建装装饰工程有限责任公司</h2></div>
+
+						<p>
+							推广区域：
+							<a href="javascript:void(0);" title="陕西">陕西</a>|
+							<a href="javascript:void(0);" title="咸阳">咸阳</a>|
+							<a href="javascript:void(0);" title="渭南">渭南</a>|
+
+						</p>
+
+						<p>地址：这里是公司地址公司地址公司地址公司地址公司地址公司地址</p>
+
+					</div>
+
+					<div class="end_right">
+						<p>联系人：段先生 </p>
+						<p>手机：15388263748&emsp;&emsp;座机：028-85200601</p>
+						<p>邮箱：1021178720@qq.com&emsp;&emsp;QQ：1021178720 </p>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		<div class="end_bq">
+
+			<div class="mainall">备案号：
+				<a href="http://www.beian.miit.gov.cn">陕ICP备09020348号-2</a> &nbsp;&nbsp;
+
+				<!--统计代码增加处-->
+				<!--<script type="text/javascript"></script> -->
+			</div>
+
+		</div>
+
+		<!-- footer begin -->
+		<!--一键分享-->
+		<script>
+			window._bd_share_config = {
+				"common": {
+					"bdSnsKey": {},
+					"bdText": "",
+					"bdMini": "2",
+					"bdMiniList": false,
+					"bdPic": "",
+					"bdStyle": "0",
+					"bdSize": "16"
+				},
+				"slide": {
+					"type": "slide",
+					"bdImg": "3",
+					"bdPos": "left",
+					"bdTop": "100"
+				}
+			};
+			with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+		</script>
+		<!--客服-->
+		<div class="main-im">
+			<div id="open_im" class="open-im">&nbsp;</div>
+			<div class="im_main" id="im_main">
+				<div id="close_im" class="close-im">
+					<a href="javascript:void(0);" title="点击关闭">&nbsp;</a>
+				</div>
+				<a href="http://wpa.qq.com/msgrd?v=3&uin=825944309&site=qq&menu=yes" target="_blank" class="im-qq qq-a" title="在线QQ客服">
+					<div class="qq-container"></div>
+					<div class="qq-hover-c"><img class="img-qq" src="images/qq.png"></div>
+					<span> QQ在线咨询</span>
+				</a>
+				<div class="im-tel">
+					<div>售前咨询热线</div>
+					<div class="tel-num">400-123-45678</div>
+					<div>售后咨询热线</div>
+					<div class="tel-num">010-12345678</div>
+				</div>
+				<div class="im-footer" style="position:relative">
+					<div class="weixing-container">
+						<div class="weixing-show">
+							<div class="weixing-txt">微信扫一扫<br>关注我们</div>
+							<img class="weixing-ma" src="images/ewm.jpg">
+							<div class="weixing-sanjiao"></div>
+							<div class="weixing-sanjiao-big"></div>
+						</div>
+					</div>
+					<div class="go-top">
+						<a href="javascript:;" title="返回顶部"></a>
+					</div>
+					<div style="clear:both"></div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
